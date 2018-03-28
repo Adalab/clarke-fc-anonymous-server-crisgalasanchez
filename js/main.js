@@ -4,6 +4,7 @@ var page = document.querySelector('.page');
 var navOpen = page.querySelector('.nav-trigger');
 var navClose = page.querySelector('.nav-close');
 
+navOpen.innerHTML = "";
 
 function openMenu() {
 	page.classList.add('page--nav-visible');
