@@ -48,9 +48,9 @@ body {
   position: fixed;
   height: 100vh;
   width: 100%;
-  background-color: rgba(#402929, 0.92);
+  background-color: rgba(64, 41, 41, 0.92);
   z-index: 4;
-  margin-top: 80px;
+  padding-top: 80px;
   transform: translate(100%);
   transition: transform ease 0.8s;
 }
@@ -75,16 +75,18 @@ body {
 .nav-close {
   background-image: url("../images/ico-close.svg");
   background-color: #1c1515e8;
+  background-size: 40px;
   padding: 0;
   border: 0;
-  border-radius: 0;
-  width: 50px;
-  height: 50px;
+  border-radius: 5px;
+  width:40px;
+  height: 40px;
   outline: none;
   cursor: pointer;
   transition: background-color ease 0.5s;
   position: absolute;
-  left: 100%;
+  top: 20px;
+  right: 20px;
   z-index: 2;
 }
 .nav-close:hover {
@@ -93,9 +95,7 @@ body {
 
 /* MAIN */
 .page__main {}
-  .page__wrapper {
-    width: 60%;
-  }
+
 .page__main-title {
   align-content: center;
   font-size: 1.8em;
@@ -142,6 +142,9 @@ body {
   .page__footer {
     left: 60px;
     right: 60px;
+  }
+  .page__wrapper {
+    width: 60%;
   }
 }
 
